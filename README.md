@@ -12,7 +12,7 @@ Is under the MIT license, see LICENSE.TXT.
     $ cd MyCordovaProject
     $ cordova plugin add https://github.com/mwthinker/FtpClient.git
     
- ## Uninstallation
+## Uninstallation
  
     $ cd MyCordovaProject</p>
     $ cordova plugin remove se.mwthinker.ftpclient
