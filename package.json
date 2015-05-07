@@ -1,0 +1,25 @@
+{
+    "author": "Marcus Welander",
+    "version": "0.1.0",
+    "name": "se.mwthinker.ftpclient",
+    "cordova_name": "FtpClient",
+    "description": "A ftp client to download/upload a file.",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mwthinker/FtpClient.git"
+    },
+    "issue": "",
+    "keywords": [
+        "cordova",
+        "ftp",
+        "client",
+        "ftp client",
+        "android"
+    ],
+    "platforms": [
+        "android"
+    ],
+    "engines": {},
+    "englishdoc": ""
+}

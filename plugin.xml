@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="se.mwthinker.ftpclient"
+        version="0.1.0">
+  <name>FtpClient</name>
+  
+  <engines>
+    <engine name="cordova" version=">=4.0.0"/>
+  </engines>
+  
+  <js-module src="www/ftpClient.js" name="ftpClient">
+    <clobbers target="ftpClient"/>
+  </js-module>
+
+  <platform name="android">
+    <config-file target="config.xml" parent="/*">
+      <feature name="FtpClient">
+        <param name="android-package" value="se.mwthinker.ftpclient.FtpClient"/>
+      </feature>
+    </config-file>
+    
+    <config-file target="AndroidManifest.xml" parent="/*">
+      <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    </config-file>
+    
+    <source-file src="src/android/FtpClient.java" target-dir="src/se/mwthinker/ftpclient"/>
+    <lib-file src="libs/android/commons-net-3.3.jar"/>
+  </platform>
+</plugin>
