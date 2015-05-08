@@ -76,6 +76,10 @@ var failure = function() {
 ftpClient.downloadAsciiString("ftp://user:password@host:port/path ", success, failure);
 ```
 
+## Acknowledgment
+This plugin was created with help from an older ftp plugin found at http://simonmacdonald.blogspot.se/2011/06/ftp-plugin-for-phonegap-android.html.
+Special thanks to its author Simon Mcdonald for providing the guide.
+
 ## More Info
 
 For more information on setting up Cordova see [the documentation](http://cordova.apache.org/docs/en/4.0.0/guide_cli_index.md.html#The%20Command-Line%20Interface).
