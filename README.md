@@ -31,7 +31,7 @@ Is under the MIT license, see LICENSE.TXT.
 function upload(file, url, success, failure);
 
 /**
-* Download a ascii file from a FTP server.
+* Download an ascii file from a FTP server.
 *
 * @param file      The ascii file to be downloaded from the ftp server.
 * @param url       The url for the ftp server.
@@ -51,7 +51,7 @@ function downloadAsciiFile(file, url, success, failure);
 function downloadBinaryFile(file, url, success, failure);
 
 /**
-* Download a ascii file as an ascii string from a FTP server.
+* Download an ascii file as an ascii string from a FTP server.
 *
 * @param url       The url for the ftp server.
 * @param success   The success callback.
