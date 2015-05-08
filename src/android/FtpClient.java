@@ -59,8 +59,6 @@ public class FtpClient extends CordovaPlugin {
                 Log.v(TAG, "JSON_EXCEPTION" + e.getMessage());
         	}
         	return true;
-        } else {
-        	return false;
         }
     }
     
@@ -87,7 +85,7 @@ public class FtpClient extends CordovaPlugin {
     	    String userInfo = url.getUserInfo();
     	    if (userInfo != null) {
                 String[] array = userInfo.split(":");
-                if (array != 2) {
+                if (array.length != 2) {
                     throw new IOException("Userinfo incorrect in the ftp URL");
                 }
     	    	username = array[0];
