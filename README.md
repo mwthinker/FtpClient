@@ -14,7 +14,7 @@ Is under the MIT license, see LICENSE.TXT.
     
 ## Uninstallation
  
-    $ cd MyCordovaProject</p>
+    $ cd MyCordovaProject
     $ cordova plugin remove se.mwthinker.ftpclient
     
 ## Javascript API
@@ -81,6 +81,5 @@ This plugin was created with help from an older ftp plugin found at http://simon
 Special thanks to its author Simon Mcdonald for providing the guide.
 
 ## More Info
-
 For more information on setting up Cordova see [the documentation](http://cordova.apache.org/docs/en/4.0.0/guide_cli_index.md.html#The%20Command-Line%20Interface).
 For more info on plugins see the [Plugin Development Guide](http://cordova.apache.org/docs/en/4.0.0/guide_hybrid_plugins_index.md.html#Plugin%20Development%20Guide)
